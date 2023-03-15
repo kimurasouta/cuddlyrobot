@@ -14,11 +14,19 @@ public class Variable1 {
 //		年齢は19歳です。
 //		身長は174.2㎝です。
 //		よろしくお願いします。
+		String name = "木村 颯太";
+		int age = 24;
+		String sex = "男";
+		double d = 174.2;
+		
 		System.out.println("私の自己紹介をします。");
-		System.out.println("名前は" + "木村颯太です。");
-		System.out.println("性別は" + "男です。");
-		System.out.println("年齢は" + "24歳です。");
-		System.out.println("身長は" + "163cmです。");
+		
+		System.out.println("名前は" + name + "です。");
+		
+		System.out.println("年齢は" + age + "歳です。");
+		
+		System.out.println("身長は" + d + "cmです。");
+		
 		System.out.println("よろしくお願いします。");
 		
 		
