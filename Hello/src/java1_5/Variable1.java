@@ -15,7 +15,7 @@ public class Variable1 {
 //		身長は174.2㎝です。
 //		よろしくお願いします。
 		String name = "木村 颯太";
-		int age = 24;
+		long age = 24;
 		String sex = "男";
 		double d = 174.2;
 		
