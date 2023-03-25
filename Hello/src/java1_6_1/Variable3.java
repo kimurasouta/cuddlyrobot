@@ -16,7 +16,7 @@ public class Variable3 {
 		System.out.println(i);
 		
 		int a = 100;
-		--a;
+		a--;
 		System.out.println(a);
 
 	}
