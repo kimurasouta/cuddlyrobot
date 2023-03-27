@@ -8,7 +8,9 @@ public class Variable2 {
 //		その後 x の値をコンソールに表示して下さい。
 		
 		int x = 3;
-		System.out.println(x * 20);
-
+		System.out.println(x); //結果:3
+		
+		x = x * 20;
+		System.out.println(x);
 	}
 }
