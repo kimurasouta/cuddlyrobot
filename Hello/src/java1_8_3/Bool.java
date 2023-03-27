@@ -12,7 +12,6 @@ public class Bool {
 		boolean result_4;
 		result_4 = (g <= 5 || g >= 10);
 		System.out.println(result_4);
-
 	}
 
 }
