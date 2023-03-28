@@ -9,7 +9,7 @@ public class Bool {
 		int b = 5;
 		
 		boolean result_1;
-		result_1 = (a > b);
+		result_1 = (a >= b);
 		System.out.println(result_1);
 
 	}
