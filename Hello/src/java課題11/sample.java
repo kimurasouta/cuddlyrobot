@@ -17,7 +17,7 @@ public class sample {
 
 	public static void main(String[] args) {
 		
-		int a =6;
+		int a =13;
 		switch(a) {
 		case 2:
 			System.out.println(a + "月は28日です。");
@@ -30,13 +30,7 @@ public class sample {
 			System.out.println(a + "月は30日です。");
 		break;
 		
-		case 1:
-		case 3:
-		case 5:
-		case 7:
-		case 8:
-		case 10:
-		case 12:
+		default:
 			System.out.println(a + "月は31日です。");
 		}
 	}    
