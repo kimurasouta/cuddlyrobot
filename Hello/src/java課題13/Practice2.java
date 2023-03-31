@@ -16,12 +16,7 @@ public class Practice2 {
 
 	public static void main(String[] args) {
 //		①配列aを作成し、1～5を格納してください。
-		int[] a = new int[5];
-		a[0] = 1;
-		a[1] = 2;
-		a[2] = 3;
-		a[3] = 4;
-		a[4] = 5;
+		int[]  a = {1, 2, 3, 4, 5};
 		
 //		②参照型配列bを作成し、3を表示してください。
 //		出力結果：3
