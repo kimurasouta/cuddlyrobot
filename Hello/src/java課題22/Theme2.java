@@ -20,17 +20,17 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Theme2 {
-	
-public static void main(String[] args) {
-	Japan welcome = new Japan("こんにちは！ここは日本です！", "この寿司はうまい", "寿司は和食です");
-	
-	Date nowDate = new Date();
-	SimpleDateFormat now = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
-	String formatNowDate = now.format(nowDate);
-	
-	System.out.println(welcome.hello);
-	System.out.println(welcome.sushi);
-	System.out.println(welcome.wasyoku);
-	System.out.println("今の現在日時は"+ formatNowDate + "です");
-}
+
+	public static void main(String[] args) {
+		Japan welcome = new Japan("こんにちは！ここは日本です！", "この寿司はうまい", "寿司は和食です");
+
+		Date nowDate = new Date();
+		SimpleDateFormat now = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+		String formatNowDate = now.format(nowDate);
+
+		System.out.println(welcome.hello);
+		System.out.println(welcome.sushi);
+		System.out.println(welcome.wasyoku);
+		System.out.println("今の現在日時は"+ formatNowDate + "です");
+	}
 }
