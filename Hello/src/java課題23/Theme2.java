@@ -16,15 +16,5 @@ public class Theme2 {
 		String a = "動物名：ライオン\n体長：2.1m\n速度：80km/h" ;
 		animalBean.setanimalBean(a);
 		System.out.println(animalBean.getanimalBean());
-		
-		/*Length length = new Length();
-		String b = "体長：2.1m";
-		length.setLength(b);
-		System.out.println(length.getLength());
-		
-		Speed speed = new Speed();
-		String c = "速度：80km/h";
-		speed.setSpeed(c);
-		System.out.println(speed.getSpeed());*/
 	}
 }

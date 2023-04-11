@@ -12,3 +12,4 @@ public class animalBean {
 				this.animalBean = animalBean;
 			}
 		}
+
