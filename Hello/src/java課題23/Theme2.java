@@ -22,6 +22,5 @@ public class Theme2 {
 		System.out.println(animalBean.getAnimalName());
 		System.out.println(animalBean.getSpeed());
 		System.out.println(animalBean.getBodyLength());
-		
 	}
 }
