@@ -29,5 +29,6 @@ public class animalBean {
 
 	public void setBodyLength(String bodyLength) {
 		this.bodyLength = bodyLength;
+		
 	}
 }
