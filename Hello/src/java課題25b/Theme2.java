@@ -22,9 +22,11 @@
 
  */
 
-package java課題25; /*実行*/
+package java課題25b; /*実行*/
 
 import java.util.Scanner;
+
+import java課題25.Sub;
 
 public class Theme2 {
 	public static void main(String[] args) {

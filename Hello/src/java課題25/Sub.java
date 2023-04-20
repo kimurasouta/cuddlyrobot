@@ -2,8 +2,6 @@ package java課題25;
 
 import java.util.Random;
 
-import java課題25b.Theme3;
-
 public class Sub {
 	public void Sub() {
 		Theme3 the = new Theme3();
