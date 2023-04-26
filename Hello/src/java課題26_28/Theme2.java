@@ -1,8 +1,8 @@
 /*
  
  	コンソールに下記が入力されたときにコンソール出力結果がコンソールに表示されるように作ってください
- 	ライオン:2.1:80,ゾウ:3.2:40,パンダ:1.9:30,チンパンジー:0.94:25,シマウマ:2.4:65,インコ:0.1:50
-  	
+ 	
+  	ライオン:2.1:80,ゾウ:3.2:40,パンダ:1.9:30,チンパンジー:0.94:25,シマウマ:2.4:65,インコ:0.1:50
   	コンソール出力結果
   	
   	コンソールに文字を入力してください
@@ -43,42 +43,24 @@ package java課題26_28;
 import java.util.Scanner;
 
 public class Theme2 {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		
-		/*Scannerでコンソールから入力を読み取るプログラム*/
-		Scanner animal = new Scanner(System.in);
-		System.out.println("動物名を入力");
+		//AnimalDataクラスをインスタンス化
+		AnimalData animalData = new AnimalData();
 		
-		/*文字列トークン取得*/
-		String line1 = animal.nextLine();
+		//コンソール入力画面
+		System.out.println("コンソールに文字を入力してください");
+		Scanner scan = new Scanner(System.in);
+		String line = scan.nextLine();
+		scan.close();
 		
+		//カンマ区切りで配列を生成
+		String[] animal = line.split(",");
 		
-		System.out.println("体長を入力");
-		
-		/*ダブルトークン取得*/
-		double line2 = animal.nextDouble();
-		
-		System.out.println("速度を入力");
-		
-		/*整数トークン取得*/
-		int line3 = animal.nextInt();
-		
-		/*入力された文字列ごとに条件分岐して出力*/
-		if (line1.equals("ライオン")) {
-			System.out.println("動物名：" + line1 + "\n" + "体長：" + line2 + "m\n" + "速度：" + line3 + "km/h\n" + "学名：パンテラ レオ");
-		}else if(line1.equals("ゾウ")) {
-			System.out.println("動物名：" + line1 + "\n" + "体長：" + line2 + "m\n" + "速度：" + line3 + "km/h\n" + "学名：ロキソドンタ・サイクロティス");
-		}else if(line1.equals("パンダ")) {
-			System.out.println("動物名：" + line1 + "\n" + "体長：" + line2 + "m\n" + "速度：" + line3 + "km/h\n" + "学名：アイルロポダ・メラノレウカ");
-		}else if(line1.equals("チンパンジー")) {
-			System.out.println("動物名：" + line1 + "\n" + "体長：" + line2 + "m\n" + "速度：" + line3 + "km/h\n" + "学名：パン・トゥログロディテス");
-		}else if(line1.equals("シマウマ")) {
-			System.out.println("動物名：" + line1 + "\n" + "体長：" + line2 + "m\n" + "速度：" + line3 + "km/h\n" + "学名：チャップマンシマウマ");
-		}else if(line1.equals("インコ")) {
-			System.out.println("動物名：" + line1 + "\n" + "体長：" + line2 + "m\n" + "速度：" + line3 + "km/h\n" + "学名：不明");
+		//setterに変数を渡す
+		animalData.setAnimalData(animal);
 		}
 	}
-}
 
 
 
