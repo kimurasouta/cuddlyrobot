@@ -42,11 +42,13 @@ package java課題26_28;
 
 import java.util.Scanner;
 
+import java課題26_28b.Sub;
+
 public class Theme2 {
 	public static void main(String[] args) throws Exception {
 		
 		//AnimalDataクラスをインスタンス化
-		AnimalData animalData = new AnimalData();
+		Sub sub = new Sub();
 		
 		//コンソール入力画面
 		System.out.println("コンソールに文字を入力してください");
@@ -58,7 +60,7 @@ public class Theme2 {
 		String[] animal = line.split(",");
 		
 		//setterに変数を渡す
-		animalData.setAnimalData(animal);
+		sub.setSub(animal);
 		}
 	}
 
