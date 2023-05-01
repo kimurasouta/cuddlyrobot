@@ -8,12 +8,9 @@ public class Sub {
 		sub.setAnimalData(data);
 		
 		String[][] animal_data = new String[6][];
-		 animal_data[0] = data[0].split(":");
-		 animal_data[1] = data[1].split(":");
-		 animal_data[2] = data[2].split(":");
-		 animal_data[3] = data[3].split(":");
-		 animal_data[4] = data[4].split(":");
-		 animal_data[5] = data[5].split(":");
+		for(int a = 0; a < 6; a++) {
+			animal_data[a] = data[a].split(":");
+		}
 		
 		//出力
 		for(int i = 0; i < 6; i++) {
